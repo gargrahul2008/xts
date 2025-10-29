@@ -248,7 +248,8 @@ class XTSConnect(XTSCommon):
                     stopPrice,
                     orderUniqueIdentifier,
                     apiOrderSource,
-                    clientID=None
+                    clientID=None,
+                    isAMO=True
                     ):
         """To place an order"""
         try:
@@ -265,7 +266,8 @@ class XTSConnect(XTSCommon):
                 "limitPrice": limitPrice,
                 "stopPrice": stopPrice,
                 "apiOrderSource":apiOrderSource,
-                "orderUniqueIdentifier": orderUniqueIdentifier
+                "orderUniqueIdentifier": orderUniqueIdentifier,
+                "isAMO": isAMO
             }
 
             if not self.isInvestorClient:

@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xts_bse_sdkcopy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xts_bse_sdkcopy/xts_nse_sdkcopy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xts_nse_sdkcopy" vcs="Git" />
   </component>
 </project>

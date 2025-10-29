@@ -1,0 +1,10 @@
+{
+  "early_guard_ms": 10,
+  "orders": [
+    { "symbol": "BITS", "qty": 50,
+            "type": "LIMIT", "limit": 17.78, "side": "BUY",
+            "product": "NRML", "tif": "DAY",
+            "time": "16:15:00", "ISAMO": true
+    }
+  ]
+}
