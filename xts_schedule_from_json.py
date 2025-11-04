@@ -316,7 +316,7 @@ def main():
                 "xt": xt,
                 "exch_seg": exch_seg,
                 "eid": exchangeInstrumentID,
-                "tag": tag,
+                "tag": tag[-20:],
                 "ISAMO": ISAMO
             })
         except Exception as e:
